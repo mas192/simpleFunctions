@@ -9,4 +9,3 @@ def importDf(filename, filepath):
     elif filename.lower().endswith('.json'):
         df = pd.read_json(filepath+'/'+filename)
         return df
-            
